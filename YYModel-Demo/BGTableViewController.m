@@ -11,23 +11,23 @@
 #import "User.h"
 #import "DifferentJSONKey.h"
 #import "BlacklistAndWhitelist.h"
-#import "YGXModel.h"
-#import "latestExpireBonusModel.h"
 #import "ContainerModel.h"
 
 
 @interface BGTableViewController ()
+
 @property(nonatomic,strong)NSArray *demoArray;
 
 @property(nonatomic,strong) NSArray *listArray;     //listArray
+
 @end
 
 @implementation BGTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)",@"liyangTest"];
- 
+    self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)"];
+    
     self.tableView.backgroundColor = [UIColor redColor];
     self.tableView.tableFooterView = [[UITableViewHeaderFooterView alloc]init];
     self.tableView.rowHeight = 100;
@@ -62,14 +62,15 @@
             break;
         case 1:
             [self DoubleModelJsonModelConvert];
+            break;
         case 2:
             [self DifferentJSONKeyModelConvert];
+            break;
         case 3:
             [self containerJsonModelConvert];
+            break;
         case 4:
-//            [self BlacklistAndWhitelistModelConvert];
-        case 5:
-            [self liyangTest];
+            [self BlacklistAndWhitelistModelConvert];
         default:
             break;
     }
@@ -94,9 +95,9 @@
 - (void) simpleModelJsonModelConvert {
     NSDictionary *json = [self getJsonWithJsonName:@"SimpleModel"];
     // Convert json to model:
-    User *user = [User yy_modelWithJSON:json];
+    User *user = [User yy_modelWithDictionary:json];
     NSLog(@"%@",user);
-
+    
     // Convert model to json:
     NSDictionary *jsonConvert = [user yy_modelToJSONObject];
     NSLog(@"%@",jsonConvert);
@@ -106,9 +107,9 @@
     NSDictionary *json = [self getJsonWithJsonName:@"DoubleModel"];
     
     // Convert json to model:
-    Book *book = [Book yy_modelWithJSON:json];
+    Book *book = [Book yy_modelWithDictionary:json];
     NSLog(@"book ===== %@",book);
-
+    
     // Convert model to json:
     NSDictionary *jsonDict = [book yy_modelToJSONObject];
     NSLog(@"jsonDict ===== %@",jsonDict);
@@ -118,64 +119,45 @@
     NSDictionary *json = [self getJsonWithJsonName:@"DifferentJSONKey"];
     
     // Convert json to model:
-    DifferentJSONKey *differentJsonKey = [DifferentJSONKey yy_modelWithJSON:json];
+    DifferentJSONKey *differentJsonKey = [DifferentJSONKey yy_modelWithDictionary:json];
     
-   // Convert model to json:
+    // Convert model to json:
     NSDictionary *jsonDict = [differentJsonKey yy_modelToJSONObject];
     NSLog(@"jsonDict ===== %@",jsonDict);
 }
 
 - (void) containerJsonModelConvert {
     NSDictionary *json =[self getJsonWithJsonName:@"ContainerModel"];
-
+    
     ContainerModel *containModel = [ContainerModel yy_modelWithDictionary:json];
     
     NSDictionary *dataDict = [containModel valueForKey:@"data"];
-
+    
     self.listArray = [dataDict valueForKey:@"list"];
-//    NSLog(@"%@",self.listArray);
+    
+    //遍历数组获取里面的字典，在调用YYModel方法
     [self.listArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSDictionary *listDict = obj;
-        
         List *listModel = [List yy_modelWithDictionary:listDict];
+        //随便获取count 和 id两个类型
         NSString *count = [listModel valueForKey:@"count"];
         NSString *id = [listModel valueForKey:@"id"];
-        
-        NSLog(@"++++%@,------%@",count,id);
-        
-        
+        NSLog(@"count == %@,id === %@",count,id);
     }];
 }
 
-//- (void) BlacklistAndWhitelistModelConvert {
-//    NSDictionary *json = [self getJsonWithJsonName:@"BlacklistAndWhitelist"];
-//    
-//    // Convert json to model:
-//    BlacklistAndWhitelist *BlacklistAndWhitelist = [BlacklistAndWhitelist yy_modelWithJSON:json];
-//    
-//    // Convert model to json:
-//    NSDictionary *jsonDict = [BlacklistAndWhitelist yy_modelToJSONObject];
-//    NSLog(@"jsonDict ===== %@",jsonDict);
-//}
 
-- (void) liyangTest {
-//    NSArray *json = [self getJsonArrayWithJsonName:@"ContainerModel"];
-
-//    DataModelArray *dataArray = [[DataModelArray alloc]init];
-//    [dataArray fillWithJSONObejct:json];
-//    NSArray *inlineDataArray = dataArray[1];
-//    NSLog(@"%@",inlineDataArray);
-//    + (id)dataModelWithJSONString:(NSString *)jsonString;
-//    + (id)dataModelWithJSONObject:(id)jsonObject;
-//
-//    - (void)fillWithJSONObejct:(NSDictionary *)jsonObject;
-//
-//    - (NSString *)toJSONString;
-//    - (NSDictionary *)toJSONObject;
+- (void) BlacklistAndWhitelistModelConvert {
+    NSDictionary *json = [self getJsonWithJsonName:@"BlacklistAndWhitelist"];
     
-//    NSDictionary *json =[self getJsonWithJsonName:@"ContainerModel"];
-//    DataModelArray *dataArray = [[DataModelArray alloc]init];
-
+    // Convert json to model:
+    BlacklistAndWhitelist *blacklistAndWhitelist = [BlacklistAndWhitelist yy_modelWithDictionary:json];
+    
+    // Convert model to json:
+    NSDictionary *jsonDict = [blacklistAndWhitelist yy_modelToJSONObject];
+    NSLog(@"jsonDict ===== %@",jsonDict);
 }
+
+
 
 @end
