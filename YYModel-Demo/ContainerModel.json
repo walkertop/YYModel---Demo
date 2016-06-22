@@ -1,0 +1,113 @@
+{
+	"data": {
+		"count": "63",
+		"latest_expire_bonus": {
+			"minutes": "353天6小时52分钟",
+			"money": "20.00"
+		},
+		"list": [
+			{
+				"count": "2",
+				"createdAt": "2015-07-31 15:55:07",
+				"expiredAt": "2015-08-01 15:55:06",
+				"flag": 2,
+				"id": "14381",
+				"leftNum": 2,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "4",
+				"createdAt": "2015-07-23 11:54:02",
+				"expiredAt": "2015-07-24 11:54:01",
+				"flag": 2,
+				"id": "13791",
+				"leftNum": 4,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "4",
+				"createdAt": "2015-07-23 11:54:02",
+				"expiredAt": "2015-07-24 11:54:01",
+				"flag": 2,
+				"id": "13790",
+				"leftNum": 4,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "2",
+				"createdAt": "2015-07-08 19:07:02",
+				"expiredAt": "2015-07-09 19:07:01",
+				"flag": 2,
+				"id": "13459",
+				"leftNum": 2,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "7",
+				"createdAt": "2015-07-06 13:26:14",
+				"expiredAt": "2015-07-07 13:26:13",
+				"flag": 2,
+				"id": "13189",
+				"leftNum": 7,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "7",
+				"createdAt": "2015-07-06 13:26:05",
+				"expiredAt": "2015-07-07 13:26:04",
+				"flag": 2,
+				"id": "12928",
+				"leftNum": 7,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "6",
+				"createdAt": "2015-07-06 13:26:02",
+				"expiredAt": "2015-07-07 13:26:01",
+				"flag": 2,
+				"id": "12667",
+				"leftNum": 6,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "5",
+				"createdAt": "2015-07-06 13:25:22",
+				"expiredAt": "2015-07-07 13:25:21",
+				"flag": 2,
+				"id": "12406",
+				"leftNum": 5,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "5",
+				"createdAt": "2015-07-06 13:25:04",
+				"expiredAt": "2015-07-07 13:25:03",
+				"flag": 2,
+				"id": "12145",
+				"leftNum": 5,
+				"sendNum": "0",
+				"usedNum": "0"
+			},
+			{
+				"count": "4",
+				"createdAt": "2015-07-06 13:25:01",
+				"expiredAt": "2015-07-07 13:25:00",
+				"flag": 2,
+				"id": "11884",
+				"leftNum": 4,
+				"sendNum": "0",
+				"usedNum": "0"
+			}
+		]
+	},
+	"errno": 3,
+	"error": "2"
+}
