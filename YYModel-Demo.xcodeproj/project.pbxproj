@@ -12,7 +12,6 @@
 		A60645C61D20DAE500EFA8E6 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60645C51D20DAE500EFA8E6 /* DemoModel.m */; };
 		A6498DD81D1A403C00ADD9E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DD71D1A403C00ADD9E1 /* main.m */; };
 		A6498DDB1D1A403C00ADD9E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DDA1D1A403C00ADD9E1 /* AppDelegate.m */; };
-		A6498DE11D1A403C00ADD9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6498DDF1D1A403C00ADD9E1 /* Main.storyboard */; };
 		A6498DE31D1A403C00ADD9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6498DE21D1A403C00ADD9E1 /* Assets.xcassets */; };
 		A6498DE61D1A403C00ADD9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6498DE41D1A403C00ADD9E1 /* LaunchScreen.storyboard */; };
 		A6498DEF1D1A407800ADD9E1 /* BGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DEE1D1A407800ADD9E1 /* BGTableViewController.m */; };
@@ -21,18 +20,15 @@
 		A6498E091D1A40CC00ADD9E1 /* BlacklistAndWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DF41D1A40CC00ADD9E1 /* BlacklistAndWhitelist.m */; };
 		A6498E0A1D1A40CC00ADD9E1 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DF61D1A40CC00ADD9E1 /* Book.m */; };
 		A6498E0B1D1A40CC00ADD9E1 /* ContainerModel.json in Resources */ = {isa = PBXBuildFile; fileRef = A6498DF71D1A40CC00ADD9E1 /* ContainerModel.json */; };
-		A6498E0C1D1A40CC00ADD9E1 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DF91D1A40CC00ADD9E1 /* DataModel.m */; };
 		A6498E0D1D1A40CC00ADD9E1 /* DifferentJSONKey.json in Resources */ = {isa = PBXBuildFile; fileRef = A6498DFB1D1A40CC00ADD9E1 /* DifferentJSONKey.json */; };
 		A6498E0E1D1A40CC00ADD9E1 /* DifferentJSONKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DFC1D1A40CC00ADD9E1 /* DifferentJSONKey.m */; };
 		A6498E0F1D1A40CC00ADD9E1 /* DoubleModel.json in Resources */ = {isa = PBXBuildFile; fileRef = A6498DFD1D1A40CC00ADD9E1 /* DoubleModel.json */; };
-		A6498E101D1A40CC00ADD9E1 /* latestExpireBonusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DFF1D1A40CC00ADD9E1 /* latestExpireBonusModel.m */; };
-		A6498E111D1A40CC00ADD9E1 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E011D1A40CC00ADD9E1 /* ListModel.m */; };
 		A6498E121D1A40CC00ADD9E1 /* SimpleModel.json in Resources */ = {isa = PBXBuildFile; fileRef = A6498E021D1A40CC00ADD9E1 /* SimpleModel.json */; };
 		A6498E131D1A40CC00ADD9E1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E041D1A40CC00ADD9E1 /* User.m */; };
-		A6498E141D1A40CC00ADD9E1 /* YGXModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E061D1A40CC00ADD9E1 /* YGXModel.m */; };
 		A6498E1B1D1A41C400ADD9E1 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E171D1A41C400ADD9E1 /* NSObject+YYModel.m */; };
 		A6498E1C1D1A41C400ADD9E1 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E191D1A41C400ADD9E1 /* YYClassInfo.m */; };
 		A6498E261D1A437800ADD9E1 /* ContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498E251D1A437800ADD9E1 /* ContainerModel.m */; };
+		A6498E2A1D1A871500ADD9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6498E291D1A871500ADD9E1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +41,6 @@
 		A6498DD71D1A403C00ADD9E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6498DD91D1A403C00ADD9E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6498DDA1D1A403C00ADD9E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6498DE01D1A403C00ADD9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6498DE21D1A403C00ADD9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6498DE51D1A403C00ADD9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6498DE71D1A403C00ADD9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,21 +54,13 @@
 		A6498DF51D1A40CC00ADD9E1 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		A6498DF61D1A40CC00ADD9E1 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		A6498DF71D1A40CC00ADD9E1 /* ContainerModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ContainerModel.json; sourceTree = "<group>"; };
-		A6498DF81D1A40CC00ADD9E1 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
-		A6498DF91D1A40CC00ADD9E1 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		A6498DFA1D1A40CC00ADD9E1 /* DifferentJSONKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifferentJSONKey.h; sourceTree = "<group>"; };
 		A6498DFB1D1A40CC00ADD9E1 /* DifferentJSONKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DifferentJSONKey.json; sourceTree = "<group>"; };
 		A6498DFC1D1A40CC00ADD9E1 /* DifferentJSONKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifferentJSONKey.m; sourceTree = "<group>"; };
 		A6498DFD1D1A40CC00ADD9E1 /* DoubleModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DoubleModel.json; sourceTree = "<group>"; };
-		A6498DFE1D1A40CC00ADD9E1 /* latestExpireBonusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = latestExpireBonusModel.h; sourceTree = "<group>"; };
-		A6498DFF1D1A40CC00ADD9E1 /* latestExpireBonusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = latestExpireBonusModel.m; sourceTree = "<group>"; };
-		A6498E001D1A40CC00ADD9E1 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
-		A6498E011D1A40CC00ADD9E1 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
 		A6498E021D1A40CC00ADD9E1 /* SimpleModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimpleModel.json; sourceTree = "<group>"; };
 		A6498E031D1A40CC00ADD9E1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		A6498E041D1A40CC00ADD9E1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		A6498E051D1A40CC00ADD9E1 /* YGXModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGXModel.h; sourceTree = "<group>"; };
-		A6498E061D1A40CC00ADD9E1 /* YGXModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGXModel.m; sourceTree = "<group>"; };
 		A6498E161D1A41C400ADD9E1 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		A6498E171D1A41C400ADD9E1 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		A6498E181D1A41C400ADD9E1 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
@@ -81,6 +68,7 @@
 		A6498E1A1D1A41C400ADD9E1 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		A6498E241D1A437800ADD9E1 /* ContainerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContainerModel.h; path = ../ContainerModel.h; sourceTree = "<group>"; };
 		A6498E251D1A437800ADD9E1 /* ContainerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContainerModel.m; path = ../ContainerModel.m; sourceTree = "<group>"; };
+		A6498E291D1A871500ADD9E1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +113,8 @@
 				A6498E211D1A429300ADD9E1 /* WhiteListAndBlacklist */,
 				A6498E1F1D1A425800ADD9E1 /* DoubleModel */,
 				A6498E1E1D1A425600ADD9E1 /* SimpleModel */,
-				A6498DDF1D1A403C00ADD9E1 /* Main.storyboard */,
 				A6498DE21D1A403C00ADD9E1 /* Assets.xcassets */,
+				A6498E291D1A871500ADD9E1 /* Main.storyboard */,
 				A6498DE41D1A403C00ADD9E1 /* LaunchScreen.storyboard */,
 				A6498DE71D1A403C00ADD9E1 /* Info.plist */,
 				A6498DD61D1A403C00ADD9E1 /* Supporting Files */,
@@ -208,6 +196,7 @@
 		A6498E221D1A42CB00ADD9E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				A6498DFE1D1A40CC00ADD9E1 /* latestExpireBonusModel.h */,
 				A6498DFF1D1A40CC00ADD9E1 /* latestExpireBonusModel.m */,
 				A6498E051D1A40CC00ADD9E1 /* YGXModel.h */,
@@ -218,6 +207,8 @@
 				A6498DF91D1A40CC00ADD9E1 /* DataModel.m */,
 				A60645C11D20D01400EFA8E6 /* TimeStampModel.h */,
 				A60645C21D20D01400EFA8E6 /* TimeStampModel.m */,
+=======
+>>>>>>> origin/master
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,8 +284,8 @@
 			files = (
 				A6498DE61D1A403C00ADD9E1 /* LaunchScreen.storyboard in Resources */,
 				A6498DE31D1A403C00ADD9E1 /* Assets.xcassets in Resources */,
-				A6498DE11D1A403C00ADD9E1 /* Main.storyboard in Resources */,
 				A6498E121D1A40CC00ADD9E1 /* SimpleModel.json in Resources */,
+				A6498E2A1D1A871500ADD9E1 /* Main.storyboard in Resources */,
 				A6498E0B1D1A40CC00ADD9E1 /* ContainerModel.json in Resources */,
 				A6498E081D1A40CC00ADD9E1 /* BlacklistAndWhitelist.json in Resources */,
 				A6498E0F1D1A40CC00ADD9E1 /* DoubleModel.json in Resources */,
@@ -315,16 +306,16 @@
 				A6498DDB1D1A403C00ADD9E1 /* AppDelegate.m in Sources */,
 				A6498DD81D1A403C00ADD9E1 /* main.m in Sources */,
 				A6498E071D1A40CC00ADD9E1 /* Author.m in Sources */,
-				A6498E101D1A40CC00ADD9E1 /* latestExpireBonusModel.m in Sources */,
 				A6498DEF1D1A407800ADD9E1 /* BGTableViewController.m in Sources */,
 				A6498E1C1D1A41C400ADD9E1 /* YYClassInfo.m in Sources */,
-				A6498E111D1A40CC00ADD9E1 /* ListModel.m in Sources */,
 				A6498E131D1A40CC00ADD9E1 /* User.m in Sources */,
+<<<<<<< HEAD
 				A6498E0C1D1A40CC00ADD9E1 /* DataModel.m in Sources */,
 				A60645C61D20DAE500EFA8E6 /* DemoModel.m in Sources */,
+=======
+>>>>>>> origin/master
 				A6498E0A1D1A40CC00ADD9E1 /* Book.m in Sources */,
 				A6498E091D1A40CC00ADD9E1 /* BlacklistAndWhitelist.m in Sources */,
-				A6498E141D1A40CC00ADD9E1 /* YGXModel.m in Sources */,
 				A6498E261D1A437800ADD9E1 /* ContainerModel.m in Sources */,
 				A6498E0E1D1A40CC00ADD9E1 /* DifferentJSONKey.m in Sources */,
 			);
@@ -333,14 +324,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A6498DDF1D1A403C00ADD9E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6498DE01D1A403C00ADD9E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6498DE41D1A403C00ADD9E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
