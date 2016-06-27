@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60645C01D20CFB400EFA8E6 /* timestamp.json in Resources */ = {isa = PBXBuildFile; fileRef = A60645BF1D20CFB400EFA8E6 /* timestamp.json */; };
+		A60645C31D20D01400EFA8E6 /* TimeStampModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60645C21D20D01400EFA8E6 /* TimeStampModel.m */; };
+		A60645C61D20DAE500EFA8E6 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A60645C51D20DAE500EFA8E6 /* DemoModel.m */; };
 		A6498DD81D1A403C00ADD9E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DD71D1A403C00ADD9E1 /* main.m */; };
 		A6498DDB1D1A403C00ADD9E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6498DDA1D1A403C00ADD9E1 /* AppDelegate.m */; };
 		A6498DE11D1A403C00ADD9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6498DDF1D1A403C00ADD9E1 /* Main.storyboard */; };
@@ -33,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60645BF1D20CFB400EFA8E6 /* timestamp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timestamp.json; sourceTree = "<group>"; };
+		A60645C11D20D01400EFA8E6 /* TimeStampModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStampModel.h; sourceTree = "<group>"; };
+		A60645C21D20D01400EFA8E6 /* TimeStampModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStampModel.m; sourceTree = "<group>"; };
+		A60645C41D20DAE500EFA8E6 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		A60645C51D20DAE500EFA8E6 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
 		A6498DD31D1A403C00ADD9E1 /* YYModel-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYModel-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6498DD71D1A403C00ADD9E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6498DD91D1A403C00ADD9E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +162,7 @@
 				A6498DFB1D1A40CC00ADD9E1 /* DifferentJSONKey.json */,
 				A6498DFD1D1A40CC00ADD9E1 /* DoubleModel.json */,
 				A6498E021D1A40CC00ADD9E1 /* SimpleModel.json */,
+				A60645BF1D20CFB400EFA8E6 /* timestamp.json */,
 			);
 			name = Json;
 			sourceTree = "<group>";
@@ -207,6 +216,8 @@
 				A6498E011D1A40CC00ADD9E1 /* ListModel.m */,
 				A6498DF81D1A40CC00ADD9E1 /* DataModel.h */,
 				A6498DF91D1A40CC00ADD9E1 /* DataModel.m */,
+				A60645C11D20D01400EFA8E6 /* TimeStampModel.h */,
+				A60645C21D20D01400EFA8E6 /* TimeStampModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -216,6 +227,8 @@
 			children = (
 				A6498E241D1A437800ADD9E1 /* ContainerModel.h */,
 				A6498E251D1A437800ADD9E1 /* ContainerModel.m */,
+				A60645C41D20DAE500EFA8E6 /* DemoModel.h */,
+				A60645C51D20DAE500EFA8E6 /* DemoModel.m */,
 			);
 			name = ContainModel;
 			sourceTree = "<group>";
@@ -285,6 +298,7 @@
 				A6498E0B1D1A40CC00ADD9E1 /* ContainerModel.json in Resources */,
 				A6498E081D1A40CC00ADD9E1 /* BlacklistAndWhitelist.json in Resources */,
 				A6498E0F1D1A40CC00ADD9E1 /* DoubleModel.json in Resources */,
+				A60645C01D20CFB400EFA8E6 /* timestamp.json in Resources */,
 				A6498E0D1D1A40CC00ADD9E1 /* DifferentJSONKey.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60645C31D20D01400EFA8E6 /* TimeStampModel.m in Sources */,
 				A6498E1B1D1A41C400ADD9E1 /* NSObject+YYModel.m in Sources */,
 				A6498DDB1D1A403C00ADD9E1 /* AppDelegate.m in Sources */,
 				A6498DD81D1A403C00ADD9E1 /* main.m in Sources */,
@@ -306,6 +321,7 @@
 				A6498E111D1A40CC00ADD9E1 /* ListModel.m in Sources */,
 				A6498E131D1A40CC00ADD9E1 /* User.m in Sources */,
 				A6498E0C1D1A40CC00ADD9E1 /* DataModel.m in Sources */,
+				A60645C61D20DAE500EFA8E6 /* DemoModel.m in Sources */,
 				A6498E0A1D1A40CC00ADD9E1 /* Book.m in Sources */,
 				A6498E091D1A40CC00ADD9E1 /* BlacklistAndWhitelist.m in Sources */,
 				A6498E141D1A40CC00ADD9E1 /* YGXModel.m in Sources */,
@@ -461,6 +477,7 @@
 				A6498DEC1D1A403C00ADD9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,7 +14,7 @@
 #import "YGXModel.h"
 #import "latestExpireBonusModel.h"
 #import "ContainerModel.h"
-
+#import "TimeStampModel.h"
 
 @interface BGTableViewController ()
 @property(nonatomic,strong)NSArray *demoArray;
@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)",@"liyangTest"];
+    self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)",@"timeStamp"];
  
     self.tableView.backgroundColor = [UIColor redColor];
     self.tableView.tableFooterView = [[UITableViewHeaderFooterView alloc]init];
@@ -69,7 +69,7 @@
         case 4:
 //            [self BlacklistAndWhitelistModelConvert];
         case 5:
-            [self liyangTest];
+            [self timestamp];
         default:
             break;
     }
@@ -178,4 +178,9 @@
 
 }
 
+- (void) timestamp {
+    NSDictionary *timeDict = [self getJsonWithJsonName:@"timestamp"];
+    TimeStampModel *timestamp = [TimeStampModel yy_modelWithDictionary:timeDict];
+    NSLog(@"%@",timestamp.createdAt);
+}
 @end
