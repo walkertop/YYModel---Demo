@@ -196,7 +196,6 @@
 		A6498E221D1A42CB00ADD9E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				A6498DFE1D1A40CC00ADD9E1 /* latestExpireBonusModel.h */,
 				A6498DFF1D1A40CC00ADD9E1 /* latestExpireBonusModel.m */,
 				A6498E051D1A40CC00ADD9E1 /* YGXModel.h */,
@@ -207,8 +206,6 @@
 				A6498DF91D1A40CC00ADD9E1 /* DataModel.m */,
 				A60645C11D20D01400EFA8E6 /* TimeStampModel.h */,
 				A60645C21D20D01400EFA8E6 /* TimeStampModel.m */,
-=======
->>>>>>> origin/master
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -309,11 +306,8 @@
 				A6498DEF1D1A407800ADD9E1 /* BGTableViewController.m in Sources */,
 				A6498E1C1D1A41C400ADD9E1 /* YYClassInfo.m in Sources */,
 				A6498E131D1A40CC00ADD9E1 /* User.m in Sources */,
-<<<<<<< HEAD
 				A6498E0C1D1A40CC00ADD9E1 /* DataModel.m in Sources */,
 				A60645C61D20DAE500EFA8E6 /* DemoModel.m in Sources */,
-=======
->>>>>>> origin/master
 				A6498E0A1D1A40CC00ADD9E1 /* Book.m in Sources */,
 				A6498E091D1A40CC00ADD9E1 /* BlacklistAndWhitelist.m in Sources */,
 				A6498E261D1A437800ADD9E1 /* ContainerModel.m in Sources */,
