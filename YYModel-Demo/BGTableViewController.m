@@ -26,13 +26,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< HEAD
     self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)",@"timeStamp"];
  
-=======
     self.demoArray = @[@"SimpleModel(简答的数据模型)",@"DoubleModel(双模型)",@"DifferentJSONKey(键值和属性不同)",@"Container property(容器模型)",@"whiteList&blackList(黑白名单)"];
     
->>>>>>> origin/master
     self.tableView.backgroundColor = [UIColor redColor];
     self.tableView.tableFooterView = [[UITableViewHeaderFooterView alloc]init];
     self.tableView.rowHeight = 100;
@@ -75,13 +72,10 @@
             [self containerJsonModelConvert];
             break;
         case 4:
-<<<<<<< HEAD
 //            [self BlacklistAndWhitelistModelConvert];
         case 5:
             [self timestamp];
-=======
             [self BlacklistAndWhitelistModelConvert];
->>>>>>> origin/master
         default:
             break;
     }
@@ -169,14 +163,11 @@
     NSLog(@"jsonDict ===== %@",jsonDict);
 }
 
-<<<<<<< HEAD
 - (void) timestamp {
     NSDictionary *timeDict = [self getJsonWithJsonName:@"timestamp"];
     TimeStampModel *timestamp = [TimeStampModel yy_modelWithDictionary:timeDict];
     NSLog(@"%@",timestamp.createdAt);
 }
-=======
 
 
->>>>>>> origin/master
 @end
